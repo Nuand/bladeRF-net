@@ -38,7 +38,7 @@ def hello_world():
     ret += "Welcome to bladeRF-net!<br />\n"
     ret += "It is currently: {}<br />\n".format(sz)
     ret += "Your assigned IP address is: {}<br />\n".format(request.remote_addr)
-    ret += "For more information about the bladeRF-wiphy project go to the <a href=\"https://github.com/Nuand/bladeRF-wifi.git\">Github!</a>"
+    ret += "For more information about the bladeRF-wiphy project go to the <a href=\"https://github.com/Nuand/bladeRF-wiphy.git\">Github!</a>"
     return ret
 
 app.run(host='0.0.0.0', port=5000)
